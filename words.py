@@ -35,7 +35,7 @@ def print_upper_words_that_starts_with(words, must_start_with):
 
     # loop over each word in words list
     for word in words:
-        # check if the current word starts with any of the letter passes inside must_start_with
+        # check if the current word starts with any of the letter passed inside must_start_with
         if word[0].lower() in must_start_with or word[0].upper() in must_start_with:
             # if the current word passes the condition, convert it to uppercase and print
             print(word.upper())
